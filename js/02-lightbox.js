@@ -5,7 +5,6 @@ import { galleryItems } from './gallery-items.js';
 
 const fotoCardsContainer = document.querySelector('.gallery')
 
-
 function createFotoCards(galleryItems) {
     return galleryItems.map(({ preview, original, description }) => {
         return `
